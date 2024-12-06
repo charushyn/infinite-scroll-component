@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinite Scroll Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="carousel">
+      <!-- Add `aria-hidden` to hide the duplicated cards from screen readers. -->
+      <div class="group lato-bold">
+        <div class="card">
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div aria-hidden class="group lato-bold">
+        <div class="card">
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+          <div class="opinion not-paired">
+            <img
+              class="opinion-img"
+              src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+              alt=""
+            />
+            <p>
+              Can't get over how good OXVA's flavors are 😍 Every vape is just
+              pure pleasure!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
